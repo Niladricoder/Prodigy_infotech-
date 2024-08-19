@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color:rgb(255, 255, 255);
+}
+
+header {
+    background-color:rgb(131, 67, 192);
+    color:rgb(253, 253, 253);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: rgb(102, 238, 232);
+    font-size: 1.07rem;
+}
+
+.firstSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color:rgb(101, 176, 208);
+    min-height: 100vh; /* Ensures the section covers the full viewport height */
+    position: relative; /* Ensure it controls its own stacking context */
+    z-index: 1;
+}
+
+.leftSection {
+    max-width: 50%;
+    margin-left: 150px;
+    font-size: 2rem;
+    color: #3a3838;
+}
+
+.red1 {
+    color: rgb(121, 31, 205);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.red2 {
+    color: rgb(121, 31, 205);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.rightSection {
+    max-width: 50%;
+    text-align: center;
+}
+
+.rightSection img {
+    max-width: 100%;
+    height: auto;
+}
+
+.secondsection {
+    padding: 100px 20px; /* Added top padding to ensure separation from first section */
+    background-color: rgb(103, 185, 205);
+    z-index: 0; /* Ensure it doesn't overlap the first section */
+    position: relative;
+}
+
+.h1 {
+    text-align:left;
+    margin-left: 150px;
+    font-size: 2.5rem;
+    color:rgb(79, 74, 74);
+}
+
+.p1 {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+    color: rgb(63, 52, 54);
+}
+
+.Icon1{
+    text-align:center;
+    margin-left: 150px;
+}
